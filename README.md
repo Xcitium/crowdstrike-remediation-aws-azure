@@ -3,6 +3,7 @@
 
 The aim of this tool is to remove the problematic Crowdstrike updates that causes the BSoD on startup in an automated way. For Azure and AWS environments below recovery options are available. 
 https://techcommunity.microsoft.com/t5/azure-compute-blog/recovery-options-for-azure-virtual-machines-vm-affected-by/ba-p/4196798
+
 https://repost.aws/knowledge-center/ec2-instance-crowdstrike-agent
 
 In cases where above solutions does not work or not applicable, you can apply this solution. Our solution first detach the disk from VMs and remove corrupted sys files form file system and finally attach and reboot the VM/
